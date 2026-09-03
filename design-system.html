@@ -793,8 +793,8 @@
 .ds-challenge-cards {
   grid-template-columns: 1fr;
   gap: 20px;
-  width: 100%;
-  margin: 40px 0 32px;
+  width: calc(100% - 40px);
+  margin: 40px auto 32px;
 }
 
 .ds-challenge-card {
@@ -805,6 +805,10 @@
 
 .ds-challenge-card h3 {
   margin-top: 48px;
+}
+
+.ds-challenge-card p {
+  margin-top: 14px;
 }
 
       .container {
