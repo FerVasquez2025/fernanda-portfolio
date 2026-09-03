@@ -3,6 +3,7 @@
 
 <head>
 
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -939,6 +940,29 @@
   display: block;
 }
 
+
+@media (max-width: 900px) {
+  .ds-challenge-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: calc(100% - 40px);
+    margin: 40px auto 32px;
+  }
+
+  .ds-challenge-card {
+    width: 100%;
+    min-height: auto;
+    padding: 28px 24px;
+  }
+
+  .ds-challenge-card h3 {
+    margin-top: 48px;
+  }
+
+  .ds-challenge-card p {
+    margin-top: 14px;
+  }
+}
   </style>
 
 </head>
